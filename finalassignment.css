@@ -1,0 +1,58 @@
+#roles{
+  text-align: center;
+  
+}
+#map{
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(5,64px);
+  display: grid;
+}
+.tile {
+  height:64px;
+  width:64px;
+  border:1px dashed grey;
+  background-color:#92d474;
+  cursor: pointer;
+}
+.icons{
+  height:64px;
+  width:64px;
+  display: inline-block;
+  border:1.5px dashed grey;
+}
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font: size 25px;
+}
+#button{
+  margin-left:45%;
+  border-radius:10px;
+  background-color:whitesmoke;
+  border-color: #7db366;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:15px;
+  padding-bottom:15px;
+  color:#7db366;
+  font-weight: bold;
+  cursor: pointer;
+}
+.selected{
+ border:5px solid hotpink ;
+}
+.mountain{
+  background-image: url("assets/mountain.png")
+}
+.water{
+  background-image: url("assets/water.png")
+}
+.player{
+  background-image: url("assets/player.png")
+}
